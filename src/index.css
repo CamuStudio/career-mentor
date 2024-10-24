@@ -14,7 +14,7 @@
     body {
         padding: 0;
         margin: 0;
-        @apply flex flex-col items-center bg-white;
+        @apply flex flex-col items-center bg-white ml-auto mr-auto;
         width: 1440px;
     }
 }
