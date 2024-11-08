@@ -2,6 +2,7 @@ import HeroSection from "../sections/HomePage/HeroSection.jsx";
 import CareerSection from "../sections/HomePage/CareerSection.jsx";
 import FeaturesSection from "../sections/HomePage/FeaturesSection.jsx";
 import Footer from "../sections/HomePage/Footer.jsx";
+import ReviewsSection from "../sections/HomePage/ReviewsSection.jsx";
 
 export default function HomePage() {
     return (
@@ -9,6 +10,7 @@ export default function HomePage() {
             <HeroSection />
             <CareerSection />
             <FeaturesSection />
+            <ReviewsSection />
             <Footer />
         </div>
 
