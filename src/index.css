@@ -5,7 +5,7 @@
 @layer base {
     html {
         box-sizing: border-box;
-        overflow: hidden;
+        /*overflow: hidden;*/
         -webkit-overflow-scrolling: touch
     }
     *, *:before, *:after {

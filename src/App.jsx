@@ -8,6 +8,12 @@ function App() {
     const router = createBrowserRouter([
         {
             element: <NavBar />,
+            children: [
+                {
+                    path: "/",
+                    element: <HomePage />,
+                },
+            ],
         },
     ])
 
