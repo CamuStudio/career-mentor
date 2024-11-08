@@ -1,8 +1,8 @@
 
 /* TODO: update the background*/
 
-import FeaturesHeader from "../components/FeaturesSection/FeaturesHeader.jsx";
-import MentorCarousel from "../components/FeaturesSection/MentorCarousel.jsx";
+import FeaturesHeader from "../../components/FeaturesSection/FeaturesHeader.jsx";
+import MentorCarousel from "../../components/FeaturesSection/MentorCarousel.jsx";
 
 
 /**

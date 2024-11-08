@@ -13,6 +13,7 @@ export default {
         'text-gradient': 'radial-gradient(314.96% 155.59% at 72.22% 118.89%, #7CDDB8 11.49%, #89C9E1 28.64%, #A39EE5 78.94%)',
       },
       colors: {
+        'Gray-50': '#FAFAFA',
         'Gray-100': '#F5F5F5',
         'Gray-200': '#E9EAEB',
         'Gray-300': '#D5D7DA',

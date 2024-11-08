@@ -1,5 +1,5 @@
-import HeroText from "../components/HeroSection/HeroText.jsx";
-import Companies from "../components/HeroSection/Companies.jsx";
+import HeroText from "../../components/HeroSection/HeroText.jsx";
+import Companies from "../../components/HeroSection/Companies.jsx";
 
 /**
  * The hero section

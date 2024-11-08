@@ -1,6 +1,7 @@
-import HeroSection from "../sections/HeroSection.jsx";
-import CareerSection from "../sections/CareerSection.jsx";
-import FeaturesSection from "../sections/FeaturesSection.jsx";
+import HeroSection from "../sections/HomePage/HeroSection.jsx";
+import CareerSection from "../sections/HomePage/CareerSection.jsx";
+import FeaturesSection from "../sections/HomePage/FeaturesSection.jsx";
+import Footer from "../sections/HomePage/Footer.jsx";
 
 export default function HomePage() {
     return (
@@ -8,6 +9,7 @@ export default function HomePage() {
             <HeroSection />
             <CareerSection />
             <FeaturesSection />
+            <Footer />
         </div>
 
     )
