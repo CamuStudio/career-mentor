@@ -1,14 +1,16 @@
+import {Outlet} from "react-router-dom";
+import logo from "../assets/Logo.png";
 
+/**
+ * The navbar component
+ */
 export default function NavBar() {
     return (
         <>
             <nav className="w-[1440px] h-[80px] flex flex-col items-center justify-center">
                 <div className="w-[1280px] p-8 flex items-center justify-between">
                     <div className="flex gap-x-2.5 items-center">
-                        <div className="flex flex-col w-8 h-8 items-center justify-center">
-                            <img src='src/assets/logo.svg' alt="Logo"/>
-                        </div>
-                        <span>Logo</span>
+                        <img src={logo} alt="Logo"/>
                     </div>
                     <div className='flex items-center gap-3'>
                         <button
@@ -21,6 +23,8 @@ export default function NavBar() {
                     </div>
                 </div>
             </nav>
+
+            <Outlet />
         </>
     );
 }
