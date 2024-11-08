@@ -12,10 +12,10 @@ export default function Footer() {
                                 become a mentor
                             </p>
                             <p className={`text-Gray-50 font-semibold leading-6`}>
-                                become a mentor
+                                find mentors
                             </p>
                             <p className={`text-Gray-50 font-semibold leading-6`}>
-                                become a mentor
+                                contact us
                             </p>
                         </div>
                     </div>
