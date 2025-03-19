@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        box-sizing: border-box;
+        /*overflow: hidden;*/
+        -webkit-overflow-scrolling: touch
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        @apply flex flex-col items-center bg-Gray-50 ml-auto mr-auto;
+        width: 1440px;
+    }
+}
